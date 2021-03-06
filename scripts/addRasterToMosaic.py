@@ -14,7 +14,7 @@ arcpy.g
 
 in_raster = arcpy.GetParameterAsText(0)
 # Asagidaki sabit mosaic path'i kendinizdeki mosaic dataset path'i ile degistirin.
-sabit_catalog_path = r"C:\Users\LENOVO\PycharmProjects\geoprocessingServiceOrnekler\datasources\sde@testsde.sde\testsde.sde.PlanCatalog"
+sabit_catalog_path = r"C:\Users\LENOVO\PycharmProjects\geoprocessingServiceOrnekler\datasources\ornekFGDB.gdb\PlanCatalog"
 tarihfield = "EklenmeTarihi"
 
 # Adim 1: Add
