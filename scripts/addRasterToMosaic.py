@@ -10,7 +10,6 @@ Not: Raster Catalog ArcMap'te vardır, ArcGIS Pro'da yoktur. Orada Mosaic Datase
 
 import arcpy
 from datetime import datetime
-arcpy.g
 
 in_raster = arcpy.GetParameterAsText(0)
 # Asagidaki sabit mosaic path'i kendinizdeki mosaic dataset path'i ile degistirin.
